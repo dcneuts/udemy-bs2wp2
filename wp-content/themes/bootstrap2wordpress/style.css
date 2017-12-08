@@ -356,7 +356,7 @@ body {
 	margin-top  : 50px;
 	font-family : 'Raleway', Helvetica, sans-serif;
 	font-size   : 16px;
-	background  : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/tile.jpg");
+	background  : url("/assets/img/tile.jpg");
 }
 
 .logged-in .navbar-fixed-top {
@@ -437,7 +437,7 @@ img {
 }
 
 .modal-content {
-	background : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/tile.jpg") top left repeat;
+	background : url("/assets/img/tile.jpg") top left repeat;
 }
 
 .badge.social {
@@ -501,7 +501,7 @@ section {
 /* HERO */
 
 #hero {
-	background     : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/hero-bg.jpg") 50% 0 repeat fixed;
+	background     : url("/assets/img/hero-bg.jpg") 50% 0 repeat fixed;
 	min-height     : 500px;
 	padding        : 40px 0;
 	color          : white;
@@ -603,13 +603,13 @@ section h3 {
 }
 
 .feature-image-default {
-	background              : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/stuff-feature.jpg") no-repeat;
+	background              : url("/assets/img/stuff-feature.jpg") no-repeat;
 	-webkit-background-size : cover;
 	background-size         : cover;
 }
 
 .feature-image-default-alt {
-	background              : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/hipster-stuff.jpg") no-repeat;
+	background              : url("/assets/img/hipster-stuff.jpg") no-repeat;
 	-webkit-background-size : cover;
 	background-size         : cover;
 }
@@ -655,7 +655,7 @@ section h3 {
 }
 
 #featurette {
-	background              : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/stuff-bg.jpg") 50% 100% repeat fixed;
+	background              : url("/assets/img/stuff-bg.jpg") 50% 100% repeat fixed;
 	-webkit-background-size : cover;
 	background-size         : cover;
 	text-align              : center;
@@ -663,7 +663,7 @@ section h3 {
 }
 
 #instructor {
-	background : white url('../img/brad-elvis.png') 90% -10px no-repeat;
+	background : white url('/assets/img/brad-elvis.png') 90% -10px no-repeat;
 }
 
 #instructor h2 {
@@ -715,7 +715,7 @@ section h3 {
 
 #signup {
 	text-align      : center;
-	background      : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/hipster-stuff.jpg") center center repeat fixed;
+	background      : url("/assets/img/hipster-stuff.jpg") center center repeat fixed;
 	background-size : cover;
 	color           : white;
 	padding         : 140px 0;
@@ -933,7 +933,7 @@ i.ci {
 	display    : inline-block;
 	height     : 40px;
 	width      : 40px;
-	background : url("/wp/wp-content/themes/bootstrap2wordpress/assets/img/icon-sprite.png") no-repeat;
+	background : url("/assets/img/icon-sprite.png") no-repeat;
 }
 
 .ci.ci-computer {
