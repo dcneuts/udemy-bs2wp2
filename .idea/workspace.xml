@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860f4954-e0fd-4acc-9ae8-c505bd240ce4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4915">
@@ -50,6 +50,21 @@
                 <element signature="e#16018#16025#0#HTML" expanded="true" />
                 <element signature="e#16816#16823#0#HTML" expanded="true" />
                 <element signature="e#17773#17780#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+              <folding>
+                <element signature="e#877#883#0#HTML" expanded="true" />
+                <element signature="e#1206#1213#1#HTML" expanded="true" />
+                <element signature="e#2422#2427#0#HTML" expanded="true" />
+                <element signature="e#2509#2514#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +89,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
       </list>
     </option>
   </component>
@@ -191,12 +206,12 @@
       <updated>1512716211787</updated>
       <workItem from="1512716213101" duration="1672000" />
       <workItem from="1512800992998" duration="1964000" />
-      <workItem from="1512845498386" duration="1155000" />
+      <workItem from="1512845498386" duration="1262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4791000" />
+    <option name="totallyTimeSpent" value="4898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -284,7 +299,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
-          <folding />
+          <folding>
+            <element signature="e#877#883#0#HTML" expanded="true" />
+            <element signature="e#1206#1213#1#HTML" expanded="true" />
+            <element signature="e#2422#2427#0#HTML" expanded="true" />
+            <element signature="e#2509#2514#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -328,14 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="85" lean-forward="false" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -368,6 +380,19 @@
             <element signature="e#16018#16025#0#HTML" expanded="true" />
             <element signature="e#16816#16823#0#HTML" expanded="true" />
             <element signature="e#17773#17780#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding>
+            <element signature="e#877#883#0#HTML" expanded="true" />
+            <element signature="e#1206#1213#1#HTML" expanded="true" />
+            <element signature="e#2422#2427#0#HTML" expanded="true" />
+            <element signature="e#2509#2514#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
