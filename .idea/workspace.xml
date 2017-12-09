@@ -36,10 +36,20 @@
       <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="4915">
+              <caret line="332" column="28" lean-forward="false" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
               <folding>
                 <element signature="e#7#41#0#PHP" expanded="true" />
+                <element signature="e#644#649#0#HTML" expanded="true" />
+                <element signature="e#1589#1596#0#HTML" expanded="true" />
+                <element signature="e#4484#4489#0#HTML" expanded="true" />
+                <element signature="e#9288#9293#0#HTML" expanded="true" />
+                <element signature="e#9395#9400#0#HTML" expanded="true" />
+                <element signature="e#9586#9591#0#HTML" expanded="true" />
+                <element signature="e#15210#15217#0#HTML" expanded="true" />
+                <element signature="e#16018#16025#0#HTML" expanded="true" />
+                <element signature="e#16816#16823#0#HTML" expanded="true" />
+                <element signature="e#17773#17780#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,12 +191,12 @@
       <updated>1512716211787</updated>
       <workItem from="1512716213101" duration="1672000" />
       <workItem from="1512800992998" duration="1964000" />
-      <workItem from="1512845498386" duration="865000" />
+      <workItem from="1512845498386" duration="1155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4501000" />
+    <option name="totallyTimeSpent" value="4791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -344,10 +354,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="4915">
+          <caret line="332" column="28" lean-forward="false" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
           <folding>
             <element signature="e#7#41#0#PHP" expanded="true" />
+            <element signature="e#644#649#0#HTML" expanded="true" />
+            <element signature="e#1589#1596#0#HTML" expanded="true" />
+            <element signature="e#4484#4489#0#HTML" expanded="true" />
+            <element signature="e#9288#9293#0#HTML" expanded="true" />
+            <element signature="e#9395#9400#0#HTML" expanded="true" />
+            <element signature="e#9586#9591#0#HTML" expanded="true" />
+            <element signature="e#15210#15217#0#HTML" expanded="true" />
+            <element signature="e#16018#16025#0#HTML" expanded="true" />
+            <element signature="e#16816#16823#0#HTML" expanded="true" />
+            <element signature="e#17773#17780#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
