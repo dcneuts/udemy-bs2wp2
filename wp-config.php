@@ -30,6 +30,8 @@ define('DB_PASSWORD', 'nVilymzpPtiks4jS');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
+define('WP_HOME','http://localhost/bs2wordpress');
+define('WP_SITEURL','http://localhost/bs2wordpress');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
