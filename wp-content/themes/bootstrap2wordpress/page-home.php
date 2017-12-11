@@ -4,6 +4,12 @@
     Template Name: Home Page
 */
 
+// Custom field variables
+
+$prelaunch_price    = get_post_meta(8, 'prelaunch_price', true);
+$launch_price       = get_post_meta(8, 'launch_price', true);
+$final_price        = get_post_meta(8, 'final_price', true);
+
 get_header(); ?>
 
     <!-- HERO -->
@@ -23,17 +29,17 @@ get_header(); ?>
                         <div id="price-timeline">
                             <div class="price active">
                                 <h4>Pre-Launch Price <small>Ends soon!</small></h4>
-                                <span>$149</span>
+                                <span><?php echo $prelaunch_price; ?></span>
                             </div><!-- price -->
 
                             <div class="price">
                                 <h4>Launch Price <small>Coming soon!</small></h4>
-                                <span>$299</span>
+                                <span><?php echo $launch_price; ?></span>
                             </div><!-- price -->
 
                             <div class="price">
                                 <h4>Final Price <small>Coming soon!</small></h4>
-                                <span>$399</span>
+                                <span><?php echo $final_price; ?></span>
                             </div><!-- price -->
                         </div><!-- price-timeline -->
 
