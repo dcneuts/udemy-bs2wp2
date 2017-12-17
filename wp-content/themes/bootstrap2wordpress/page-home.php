@@ -28,6 +28,10 @@ $who_section_image      = get_field('who_section_image');
 $who_section_title      = get_field('who_section_title');
 $who_section_body       = get_field('who_section_body');
 
+$features_section_image = get_field('features_section_image');
+$features_section_title = get_field('features_section_title');
+$features_section_body  = get_field('features_section_body');
+
 get_header(); ?>
 
     <!-- HERO -->
@@ -137,7 +141,7 @@ get_header(); ?>
 
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-	                <?php echo $who_section_body ?>
+	                <?php echo $who_section_body; ?>
                 </div><!-- col -->
             </div><!-- row -->
 
@@ -148,40 +152,39 @@ get_header(); ?>
     <section id="course-features">
         <div class="container">
             <div class="section-header">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icon-rocket.png" alt="Rocket">
-                <h2>Course Features</h2>
+
+	            <! -- If user uploaded image that's not required -->
+                <?php if(!empty($features_section_image)) : ?>
+
+		            <img src="<?php echo $features_section_image['url']; ?>" alt="<?php echo
+                    $features_section_image['alt']; ?>">
+
+                <?php endif; ?>
+
+                <h2><?php echo $features_section_title; ?></h2>
+	            <!-- If user added body text in custom fields -->
+	            <?php if(!empty($features_section_body)) : ?>
+	            <p class="lead"><?php echo $features_section_body; ?></p>
+				<?php endif; ?>
             </div><!-- section-header -->
 
             <div class="row">
-                <div class="col-sm-2">
-                    <i class="ci ci-computer"></i>
-                    <h4>Lifetime access to 80+ lectures</h4>
-                </div><!-- col -->
 
-                <div class="col-sm-2">
-                    <i class="ci ci-watch"></i>
-                    <h4>10+ hours of HD video content</h4>
-                </div><!-- col -->
+	            <!-- Loop using WP query using custom feature post type -->
+	            <?php $loop = new WP_Query(array('post_type' => 'course_feature', 'orderby' => 'post_id', 'order' => 'ASC')
+	            ); ?>
 
-                <div class="col-sm-2">
-                    <i class="ci ci-calendar"></i>
-                    <h4>30-day money back guarantee</h4>
-                </div><!-- col -->
+	            <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
-                <div class="col-sm-2">
-                    <i class="ci ci-community"></i>
-                    <h4>Access to a community of like-minded students</h4>
-                </div><!-- col -->
+		            <!-- Look to grab all icons and titles corresponding to post_type => course_feature above -->
 
-                <div class="col-sm-2">
-                    <i class="ci ci-instructor"></i>
-                    <h4>Direct access to the instructor</h4>
-                </div><!-- col -->
+		            <div class="col-sm-2">
+			            <i class="<?php the_field('course_feature_icon'); ?>"></i>
+			            <h4><?php the_title(); ?></h4>
+		            </div><!-- col -->
 
-                <div class="col-sm-2">
-                    <i class="ci ci-device"></i>
-                    <h4>Accessible content on your mobile devices</h4>
-                </div><!-- col -->
+				<?php endwhile; ?>
+
             </div><!-- row -->
 
         </div><!-- container -->
