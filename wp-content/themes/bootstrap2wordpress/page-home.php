@@ -328,61 +328,32 @@ get_header(); ?>
                 <div class="col-sm-8 col-sm-offset-2">
                     <h2>What People Are Saying About Brad</h2>
 
-                    <!-- TESTIMONIAL -->
-                    <div class="row testimonial">
-                        <div class="col-sm-4">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brennan.jpg" alt="Picture of Brennan">
-                        </div><!-- end col -->
+							<!-- Loop using WP query using custom feature post type -->
+						<?php $loop = new WP_Query(array('post_type' => 'testimonial', 'orderby' => 'post_id', 'order' =>
+						        'ASC')); ?>
+
+						<?php while($loop->have_posts()) : $loop->the_post(); ?>
+
+
+							<!-- Grab the thumbnail for this column dynamically -->
+	                <div class="row testimonial">
+		                <div class="col-sm-4">
+			                <?php
+			                    if(has_post_thumbnail()) {
+			                    	the_post_thumbnail(array(200,200)); // resize in case user uploads too large image
+			                    }
+			                ?>
+		                </div><!-- end col -->
+
+		                      <!-- Grab the content for this column dynamically -->
                         <div class="col-sm-8">
                             <blockquote>
-                                These videos are well created, concise, fast-paced, easy to follow, and just funny enough to keep you chuckling as your slamming out lines of code. I've taken 3 courses from this instructor. Whenever I have questions he is right there with a simple solution or a helpful suggestion to keep me going forward with the course work.
-                                <cite>&mdash; Brennan, graduate of all of Brad's courses</cite>
+	                            <?php the_content(); ?> <!-- Because text is in comment box in custom styles -->
+	                            <cite>&mdash; <?php the_title(); ?></cite>
                             </blockquote>
                         </div><!-- end col -->
-
                     </div><!-- row -->
-
-                    <!-- TESTIMONIAL -->
-                    <div class="row testimonial">
-                        <div class="col-sm-4">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/ben.png" alt="Illustration of man with moustache">
-                        </div><!-- end col -->
-                        <div class="col-sm-8">
-                            <blockquote>
-                                I found Brad to be a a great teacher, and a very inspiring person. It's clear he is very passionate about helping designers learn to code, and I look forward to more courses from him!
-                                <cite>&mdash; Ben, graduate of Build a Website from Scratch with HTML & CSS</cite>
-                            </blockquote>
-                        </div><!-- end col -->
-
-                    </div><!-- row -->
-
-                    <!-- TESTIMONIAL -->
-                    <div class="row testimonial">
-                        <div class="col-sm-4">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/aj.png" alt="Illustration of man with beard">
-                        </div><!-- end col -->
-                        <div class="col-sm-8">
-                            <blockquote>
-                                Brad is amazing and I honestly think he's the best tutor of all the courses I have taken on Udemy. Will definitely be following him in the future. Thanks Brad!
-                                <cite>&mdash; AJ, graduate of Code a Responsive Website with Bootstrap 3</cite>
-                            </blockquote>
-                        </div><!-- end col -->
-
-                    </div><!-- row -->
-
-                    <!-- TESTIMONIAL -->
-                    <div class="row testimonial">
-                        <div class="col-sm-4">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/ernest.png" alt="Illustration of man with a goatee">
-                        </div><!-- end col -->
-                        <div class="col-sm-8">
-                            <blockquote>
-                                Brad is an excellent instructor. His content is super high quality, and you can see the love and care put into every section. The tutorials are the perfect length, and you feel like your doing something right out of the gate! I really can't believe this is free. I highly recommend taking advantage of this course.
-                                <cite>&mdash; Ernest, graduate of Code Dynamic Websites with PHP</cite>
-                            </blockquote>
-                        </div><!-- end col -->
-
-                    </div><!-- row -->
+                            <?php endwhile; ?>
 
                 </div><!-- end column -->
             </div><!-- row -->
