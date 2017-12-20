@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860f4954-e0fd-4acc-9ae8-c505bd240ce4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-resources.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-resources.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="63" column="117" lean-forward="true" selection-start-line="63" selection-start-column="117" selection-end-line="63" selection-end-column="117" />
+            <state relative-caret-position="1364">
+              <caret line="63" column="117" lean-forward="false" selection-start-line="63" selection-start-column="117" selection-end-line="63" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -68,6 +78,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-testimonials.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php" />
       </list>
     </option>
   </component>
@@ -109,6 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,20 +147,10 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bootstrap2wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="bs2wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bs2wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap2wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="template-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,18 +197,27 @@
       <workItem from="1513367782831" duration="1838000" />
       <workItem from="1513489931774" duration="6597000" />
       <workItem from="1513540382336" duration="12467000" />
-      <workItem from="1513664068733" duration="1866000" />
+      <workItem from="1513664068733" duration="2046000" />
+      <workItem from="1513750387325" duration="1480000" />
     </task>
+    <task id="LOCAL-00001" summary="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically.">
+      <created>1513666000144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513666000144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37666000" />
+    <option name="totallyTimeSpent" value="39326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -277,6 +289,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically." />
+  </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>E:\xampp\htdocs\bs2wordpress</wordpressPath>
   </component>
@@ -285,13 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -303,7 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23298">
           <caret line="1059" column="1" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -340,7 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23298">
           <caret line="1059" column="1" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -385,7 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23298">
           <caret line="1059" column="1" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -422,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23298">
           <caret line="1059" column="1" lean-forward="true" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14960">
           <caret line="680" column="36" lean-forward="false" selection-start-line="680" selection-start-column="36" selection-end-line="680" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14630">
           <caret line="665" column="77" lean-forward="true" selection-start-line="665" selection-start-column="77" selection-end-line="665" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23166">
           <caret line="1053" column="37" lean-forward="false" selection-start-line="1053" selection-start-column="37" selection-end-line="1053" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2420">
           <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15869">
           <caret line="1059" column="1" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,8 +653,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="63" column="117" lean-forward="true" selection-start-line="63" selection-start-column="117" selection-end-line="63" selection-end-column="117" />
+        <state relative-caret-position="1364">
+          <caret line="63" column="117" lean-forward="false" selection-start-line="63" selection-start-column="117" selection-end-line="63" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding />
         </state>
       </provider>
