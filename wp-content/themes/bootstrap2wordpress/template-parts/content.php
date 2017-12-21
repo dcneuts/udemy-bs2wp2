@@ -26,10 +26,11 @@
 				<i class="fa fa-folder-open"></i> <?php the_category(', '); ?>
 				<i class="fa fa-tags"></i> Tagged <?php the_tags('', ', ', ''); ?>
 				<div class="post-comments-badge">
-					<a href=""><i class="fa fa-comments"></i> <?php comments_number(0,1,'%'); ?></a>
+					<a href="<?php comments_link(); ?>"><i class="fa fa-comments"></i> <?php comments_number(0,1,'%')
+						; ?></a>
 				</div><!-- post-comments-badge -->
 
-				<div><?php edit_post_link('Edit', '<div><i class="fa fa-pencil"></i>', '</div>' ); ?></div>
+				<?php edit_post_link(' Edit', '<i class="fa fa-pencil"></i>', ' ' ); ?>
 
 			</div><!-- post details -->
 
@@ -46,7 +47,4 @@
 		<?php the_excerpt(); ?>
 	</div><!-- post-excerpt -->
 
-	<footer class="entry-footer">
-		<?php bootstrap2wordpress_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

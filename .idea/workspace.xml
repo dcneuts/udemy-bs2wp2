@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="860f4954-e0fd-4acc-9ae8-c505bd240ce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +49,43 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="358">
+              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
                 <element signature="e#6#167#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="776">
+              <caret line="163" column="98" lean-forward="false" selection-start-line="163" selection-start-column="98" selection-end-line="163" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="801" column="16" lean-forward="false" selection-start-line="801" selection-start-column="16" selection-end-line="801" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formatting.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34555">
+              <caret line="3330" column="24" lean-forward="false" selection-start-line="3330" selection-start-column="24" selection-end-line="3330" selection-end-column="24" />
+              <folding>
+                <marker date="1512358615194" expanded="true" signature="111612:111641" ph="..." />
+                <marker date="1512358615194" expanded="true" signature="185234:185263" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,9 +109,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-instructor.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-vidfeatures.php" />
@@ -91,7 +124,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
       </list>
     </option>
   </component>
@@ -157,14 +192,6 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bootstrap2wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bs2wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bs2wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap2wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="template-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -243,11 +270,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513754932739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added blog post excerpt dynamic hookups via PHP and fixed a few layout bugs">
+      <created>1513839047969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513839047969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42528000" />
+    <option name="totallyTimeSpent" value="43468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -329,7 +363,8 @@
     <MESSAGE value="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically." />
     <MESSAGE value="Created Blog page in WP, then selected the created page as default blog page under settings, imported static blog code snippets and converted to dynamic WP page template." />
     <MESSAGE value="Began editing blog post meta data section, not yet finished, pushing to repo to preserve edits." />
-    <option name="LAST_COMMIT_MESSAGE" value="Began editing blog post meta data section, not yet finished, pushing to repo to preserve edits." />
+    <MESSAGE value="Added blog post excerpt dynamic hookups via PHP and fixed a few layout bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added blog post excerpt dynamic hookups via PHP and fixed a few layout bugs" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>E:\xampp\htdocs\bs2wordpress</wordpressPath>
@@ -339,13 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23298">
-          <caret line="1059" column="1" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -611,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-features.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="601">
@@ -636,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
           <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15869">
-          <caret line="1059" column="1" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1059" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -698,10 +712,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34555">
+          <caret line="3330" column="24" lean-forward="false" selection-start-line="3330" selection-start-column="24" selection-end-line="3330" selection-end-column="24" />
+          <folding>
+            <marker date="1512358615194" expanded="true" signature="111612:111641" ph="..." />
+            <marker date="1512358615194" expanded="true" signature="185234:185263" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="163" column="98" lean-forward="false" selection-start-line="163" selection-start-column="98" selection-end-line="163" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="801" column="16" lean-forward="false" selection-start-line="801" selection-start-column="16" selection-end-line="801" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="358">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="e#6#167#0#PHP" expanded="true" />
           </folding>
