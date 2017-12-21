@@ -26,37 +26,25 @@
 				<i class="fa fa-folder-open"></i> <?php the_category(', '); ?>
 				<i class="fa fa-tags"></i> Tagged <?php the_tags('', ', ', ''); ?>
 				<div class="post-comments-badge">
-					<a href=""><i class="fa fa-comments"></i> <?php comments_number(0,1,'%'); ?>></a>
+					<a href=""><i class="fa fa-comments"></i> <?php comments_number(0,1,'%'); ?></a>
 				</div><!-- post-comments-badge -->
 
-				<div><<?php edit_post_link('Edit', '<div><i class="fa fa-pencil"></i>', '</div>' ); ?></div>
+				<div><?php edit_post_link('Edit', '<div><i class="fa fa-pencil"></i>', '</div>' ); ?></div>
 
 			</div><!-- post details -->
 
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
-		<?php
-			the_content( sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'bootstrap2wordpress' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				get_the_title()
-			) );
+	<?php if(has_post_thumbnail()) { //check feature image exists?>
+	<div class="post-image">
+		<?php the_post_thumbnail(); ?>
+	</div><!-- post-image -->
+	<?php } ?>
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'bootstrap2wordpress' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
+	<div class="post-excerpt">
+		<?php the_excerpt(); ?>
+	</div><!-- post-excerpt -->
 
 	<footer class="entry-footer">
 		<?php bootstrap2wordpress_entry_footer(); ?>
