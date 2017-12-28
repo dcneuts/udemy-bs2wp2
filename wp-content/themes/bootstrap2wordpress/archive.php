@@ -15,12 +15,12 @@ get_header(); ?>
 		<?php
 		if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+			<section class="feature-image feature-image-default-alt" data-type="background" data-speed="3">
+                <?php
+                the_archive_title( '<h1 class="page-title">','');
+                the_archive_description( '<small class="taxonomy-description">', '</small> </h1>' );
+                ?>
+			</section>
 
 			<?php
 			/* Start the Loop */
