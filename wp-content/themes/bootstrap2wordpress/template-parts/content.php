@@ -43,8 +43,8 @@
 	</div><!-- post-image -->
 	<?php } ?>
 
-	<div class="post-excerpt">
-		<?php the_excerpt(); ?>
-	</div><!-- post-excerpt -->
+	<div class="post-body">
+		<?php the_content(); ?>
+	</div><!-- post-body -->
 
 </article><!-- #post-<?php the_ID(); ?> -->
