@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860f4954-e0fd-4acc-9ae8-c505bd240ce4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-fullwidth.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-fullwidth.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-fullwidth.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-fullwidth.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="579">
@@ -54,6 +54,16 @@
               <folding>
                 <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,7 +104,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/comments.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/archive.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-none.php" />
@@ -102,6 +111,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-fullwidth.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
       </list>
     </option>
   </component>
@@ -240,7 +250,7 @@
       <workItem from="1513840049189" duration="1564000" />
       <workItem from="1514443169810" duration="19000" />
       <workItem from="1514443251489" duration="9037000" />
-      <workItem from="1514487719411" duration="1863000" />
+      <workItem from="1514487719411" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically.">
       <created>1513666000144</created>
@@ -298,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514452268930</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added contact page and created fullwidth contact page template, cut from static contact page from earlier lessons to grab everything within the main content section with corresponding divs and then made it dynamic.">
+      <created>1514491947444</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1514491947444</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56020000" />
+    <option name="totallyTimeSpent" value="56880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,7 +406,8 @@
     <MESSAGE value="Changes made to adjust template and styling to make it more like the lesson, odd behaviors from heading image and text shifting on scroll." />
     <MESSAGE value="Modified archive pages template so that it reflects the remainder of the theme." />
     <MESSAGE value="Fixed multiple bugs that prevented users from seeing full blog posts, fixed classes and layout in some templates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed multiple bugs that prevented users from seeing full blog posts, fixed classes and layout in some templates." />
+    <MESSAGE value="Added contact page and created fullwidth contact page template, cut from static contact page from earlier lessons to grab everything within the main content section with corresponding divs and then made it dynamic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added contact page and created fullwidth contact page template, cut from static contact page from earlier lessons to grab everything within the main content section with corresponding divs and then made it dynamic." />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>E:\xampp\htdocs\bs2wordpress</wordpressPath>
@@ -721,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="380" column="17" lean-forward="false" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
@@ -761,6 +772,14 @@
           <folding>
             <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
