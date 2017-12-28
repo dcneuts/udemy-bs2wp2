@@ -25,21 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="946">
+              <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="627" column="14" lean-forward="false" selection-start-line="627" selection-start-column="14" selection-end-line="627" selection-end-column="14" />
+            <state relative-caret-position="394">
+              <caret line="380" column="17" lean-forward="false" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -215,7 +215,7 @@
       <workItem from="1513836591774" duration="1365000" />
       <workItem from="1513840049189" duration="1564000" />
       <workItem from="1514443169810" duration="19000" />
-      <workItem from="1514443251489" duration="4924000" />
+      <workItem from="1514443251489" duration="5885000" />
     </task>
     <task id="LOCAL-00001" summary="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically.">
       <created>1513666000144</created>
@@ -252,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513840000184</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes made to adjust template and styling to make it more like the lesson, odd behaviors from heading image and text shifting on scroll.">
+      <created>1514448241157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514448241157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50044000" />
+    <option name="totallyTimeSpent" value="51005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -340,7 +347,8 @@
     <MESSAGE value="Began editing blog post meta data section, not yet finished, pushing to repo to preserve edits." />
     <MESSAGE value="Added blog post excerpt dynamic hookups via PHP and fixed a few layout bugs" />
     <MESSAGE value="Additional changes - removed post excerpt footer, removed div tags from excerpt, moved edit post to same line, attempted again to resize excerpt thumbnail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional changes - removed post excerpt footer, removed div tags from excerpt, moved edit post to same line, attempted again to resize excerpt thumbnail" />
+    <MESSAGE value="Changes made to adjust template and styling to make it more like the lesson, odd behaviors from heading image and text shifting on scroll." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes made to adjust template and styling to make it more like the lesson, odd behaviors from heading image and text shifting on scroll." />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>E:\xampp\htdocs\bs2wordpress</wordpressPath>
@@ -702,18 +710,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="627" column="14" lean-forward="false" selection-start-line="627" selection-start-column="14" selection-end-line="627" selection-end-column="14" />
+        <state relative-caret-position="946">
+          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="394">
+          <caret line="380" column="17" lean-forward="false" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -377,6 +377,10 @@ h1, h2 {
 	margin : 0 0 40px;
 }
 
+h1 small {
+	color: white;
+}
+
 h3 {
 	margin : 20px 0;
 }
