@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="860f4954-e0fd-4acc-9ae8-c505bd240ce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/404.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,60 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-              <folding>
-                <marker date="1514452057765" expanded="true" signature="911:958" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-fullwidth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-fullwidth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,38 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
+      <file leaf-file-name="404.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-              <folding>
-                <element signature="e#1381#1387#0#HTML" expanded="true" />
-                <marker date="1514498075212" expanded="true" signature="1542:2130" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="1570:2130" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="1600:2130" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="1630:2006" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="1671:1807" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="1765:1798" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="1854:1996" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2055:2130" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2257:2828" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2287:2483" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2428:2471" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2532:2728" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2674:2716" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2845:3081" ph="..." />
-                <marker date="1514498075212" expanded="true" signature="2852:3077" ph="..." />
-              </folding>
+            <state relative-caret-position="667">
+              <caret line="83" column="117" lean-forward="true" selection-start-line="83" selection-start-column="117" selection-end-line="83" selection-end-column="117" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/header.php">
+      <file leaf-file-name="page-resources.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="65" column="22" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="46" column="20" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="46" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -160,6 +88,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/404.php" />
       </list>
     </option>
   </component>
@@ -298,7 +227,7 @@
       <workItem from="1513840049189" duration="1564000" />
       <workItem from="1514443169810" duration="19000" />
       <workItem from="1514443251489" duration="9037000" />
-      <workItem from="1514487719411" duration="5411000" />
+      <workItem from="1514487719411" duration="7519000" />
     </task>
     <task id="LOCAL-00001" summary="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically.">
       <created>1513666000144</created>
@@ -377,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514496807093</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added new custom, registered menu to the footer section to replace bootstrap standard menu, customized and installed.">
+      <created>1514498254553</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514498254553</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59568000" />
+    <option name="totallyTimeSpent" value="61676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -471,7 +407,8 @@
     <MESSAGE value="Added contact page and created fullwidth contact page template, cut from static contact page from earlier lessons to grab everything within the main content section with corresponding divs and then made it dynamic." />
     <MESSAGE value="Added Contact Form 7, created contact page template from static site, imported HTML code and added Contact Form 7 syntax to hook it up via shortcodes once done.  Removed comments in HTML as CF7 was interpreting as &lt;br&gt; tags." />
     <MESSAGE value="Demonstration of adding a registered, additional widget to functions.php in order to use the dynamic sidebar function by ID to inject a sidebar onto any page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of adding a registered, additional widget to functions.php in order to use the dynamic sidebar function by ID to inject a sidebar onto any page." />
+    <MESSAGE value="Added new custom, registered menu to the footer section to replace bootstrap standard menu, customized and installed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new custom, registered menu to the footer section to replace bootstrap standard menu, customized and installed." />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>E:\xampp\htdocs\bs2wordpress</wordpressPath>
@@ -481,13 +418,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
@@ -726,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="63" column="117" lean-forward="false" selection-start-line="63" selection-start-column="117" selection-end-line="63" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -782,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -797,6 +712,22 @@
           <folding>
             <marker date="1514452057765" expanded="true" signature="911:958" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="65" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,22 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="65" column="22" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="65" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -864,6 +779,30 @@
             <marker date="1514498075212" expanded="true" signature="2845:3081" ph="..." />
             <marker date="1514498075212" expanded="true" signature="2852:3077" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="46" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="83" column="117" lean-forward="true" selection-start-line="83" selection-start-column="117" selection-end-line="83" selection-end-column="117" />
+          <folding />
         </state>
       </provider>
     </entry>
