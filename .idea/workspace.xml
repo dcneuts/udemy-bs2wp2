@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="860f4954-e0fd-4acc-9ae8-c505bd240ce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/comments.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,33 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php">
+      <file leaf-file-name="comments.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-              <folding>
-                <element signature="e#6#189#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+            <state relative-caret-position="396">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="734">
+              <caret line="949" column="21" lean-forward="false" selection-start-line="949" selection-start-column="21" selection-end-line="949" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -81,10 +68,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/page-resources.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/template-parts/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/comments.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css" />
       </list>
     </option>
   </component>
@@ -105,7 +93,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-143" />
+    <option name="x" value="712" />
     <option name="y" value="-8" />
     <option name="width" value="1922" />
     <option name="height" value="1094" />
@@ -216,7 +204,7 @@
       <workItem from="1513836591774" duration="1365000" />
       <workItem from="1513840049189" duration="1564000" />
       <workItem from="1514443169810" duration="19000" />
-      <workItem from="1514443251489" duration="1977000" />
+      <workItem from="1514443251489" duration="3700000" />
     </task>
     <task id="LOCAL-00001" summary="Created dynamic version of resources page, used custom post type to define Resources type and then used custom fields to be used within that type. Used loops to pull data dynamically.">
       <created>1513666000144</created>
@@ -257,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47097000" />
+    <option name="totallyTimeSpent" value="48820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -351,13 +339,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -652,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="804" column="0" lean-forward="true" selection-start-line="804" selection-start-column="0" selection-end-line="804" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="821">
@@ -698,6 +672,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -708,10 +690,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+        <state relative-caret-position="734">
+          <caret line="949" column="21" lean-forward="false" selection-start-line="949" selection-start-column="21" selection-end-line="949" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bootstrap2wordpress/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>

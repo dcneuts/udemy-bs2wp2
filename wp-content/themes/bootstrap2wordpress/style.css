@@ -60,8 +60,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	}
 }
 
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
+.site-main .comment-navigation, .site-main,
+.posts-navigation, .site-main,
 .post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
@@ -108,7 +108,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	color: #21759b;
 	display: block;
 	font-size: 14px;
-	font-size: 0.875rem;
 	font-weight: bold;
 	height: auto;
 	left: 5px;
@@ -803,8 +802,6 @@ footer li.signup-link a:hover {
 	height : auto;
 }
 
-
-
 .post-details {
 	font-size : 12px;
 	width     : 90%;
@@ -845,7 +842,7 @@ footer li.signup-link a:hover {
 	left     : 1px;
 }
 
-/* Comment Bubble */
+/* Comment Bubble - Comments */
 
 .post-comments-badge {
 	height                : 70px;
@@ -915,6 +912,42 @@ footer li.signup-link a:hover {
 	margin: 40px 0 0;
 	padding: 20px 0 0;
 	border-top: solid 1px #eee;
+}
+
+/* Specific WP Comment Styles */
+
+#comments footer {
+	background: none;
+	color: inherit;
+}
+
+#comments footer a {
+	color: inherit;
+}
+
+#comments .comment-metadata {
+	margin: 10px 0 0;
+}
+
+#comments .comments-title,
+#comments #reply-title {
+	text-align: left;
+}
+
+div.comment-content p {
+	margin-top: 40px;
+}
+
+div.comment-metadata a > time {
+	display: block;
+	color: maroon;
+}
+
+a.comment-edit-link {
+	float: right;
+	color: red !important;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 /* RESOURCES */
